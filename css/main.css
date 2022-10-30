@@ -71,7 +71,14 @@ p:first-of-type /* Первый абзац, last-of-type - последний а
 background-color: #b3d4e6; */
 
 /* Добавление картинки на задний фон */
-/* background-image: url('сюда url картинки, либо полный путь к своему файлу'); либо можно вставить свою
-   background-repeat: no-repeat; - не повторять, repeat-x, repeat-y
+/*  background-image: url('сюда url картинки, либо полный путь к своему файлу'); либо можно вставить свою
+    background-repeat: no-repeat; - не повторять, repeat-x, repeat-y
     background-position: center 
 }*/
+
+/* Работа с фоновыми картинками*/
+/* body {
+   background: #b3d4e6 url('ссылка на картинку') no-repeat center;
+   height: 100vh
+   background-size: cover;
+   background-attachment: fixed; - фиксированный задний фон

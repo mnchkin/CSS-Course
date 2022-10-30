@@ -69,3 +69,9 @@ p:first-of-type /* Первый абзац, last-of-type - последний а
 
 /* Установка цвета заднего фона 
 background-color: #b3d4e6; */
+
+/* Добавление картинки на задний фон */
+/* background-image: url('сюда url картинки, либо полный путь к своему файлу'); либо можно вставить свою
+   background-repeat: no-repeat; - не повторять, repeat-x, repeat-y
+    background-position: center 
+}*/

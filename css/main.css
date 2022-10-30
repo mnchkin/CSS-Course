@@ -66,3 +66,6 @@ p.main_link::first-letter /* Первая буква, first-line - первая 
 p:first-of-type /* Первый абзац, last-of-type - последний абзац */ {
   text-decoration: line-through;
 }
+
+/* Установка цвета заднего фона 
+background-color: #b3d4e6; */

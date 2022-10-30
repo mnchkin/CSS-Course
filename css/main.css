@@ -14,3 +14,55 @@ div b,
 div i {
   color: green;
 }
+
+/* Работа с псевдоклассами */
+.main_link {
+  color: red;
+  text-decoration: none; /* none - нет подчеркивания; line-through - перечеркнуто; overline - подчеркивание сверху; underline - подчеркивание будет */
+}
+
+.main_link:hover /* Наводишь на текст */ {
+  color: blue;
+  text-decoration: underline;
+  text-decoration-color: red;
+  cursor: pointer;
+}
+
+.main_link:active /* Нажимаешь на текст */ {
+  text-decoration: line-through;
+}
+
+.main_link:visited {
+  color: grey;
+}
+
+input {
+  color: blue;
+}
+
+input:focus {
+  color: red;
+}
+
+p.text:not(:empty) {
+  color: yellow;
+}
+
+/* Работа с псевдоэлементами */
+#some_id::after {
+  content: '123';
+  color: red;
+}
+
+p.text:not(:empty)::after /* также есть before */ {
+  content: 'Some';
+  color: grey;
+}
+
+p.main_link::first-letter /* Первая буква, first-line - первая строка */ {
+  color: green;
+}
+
+p:first-of-type /* Первый абзац, last-of-type - последний абзац */ {
+  text-decoration: line-through;
+}

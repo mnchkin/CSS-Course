@@ -82,3 +82,17 @@ background-color: #b3d4e6; */
    height: 100vh
    background-size: cover;
    background-attachment: fixed; - фиксированный задний фон
+
+        /* Стили для текста*/
+/*.main_text {
+    color: #000 (#000000) - (черный цвет, #ffffff - белый);
+    text-align: center /*- (где находится текст, justify - по ширине);
+    font-size: 1.2em /*(размер шрифта) (20px) (2em - в 2 раза больше);
+    font-style: normal /*(italic - курсив);
+    font-weight: 100 /*- жирный, bolder - ещё более жирный)
+    font-family: 'Smooch Sans', sans-serif; - добавление нового шрифта
+    text-transform: lower-case; - всё с маленькой буквы; uppercase - с большой буквы; capitalize - каждое слово с заглавной буквы
+    word-spacing: 20px; - пространство между словами
+    letter-spacing: 4px; - пространство между буквами
+    line-height: 50px; - пространство между строками
+}

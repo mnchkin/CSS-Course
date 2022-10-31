@@ -105,4 +105,9 @@ background-color: #b3d4e6; */
   background: red;
   height: 200px;
   width: 300px;
+  /*Добавление обводки*/
+  border: 10px solid /* - сплошная обводка; dashed - пунктир; dotted */ silver;
+  border-bottom: 0;
+  border-top-style: solid;
+  border-width: double;
 }

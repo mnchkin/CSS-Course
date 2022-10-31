@@ -99,3 +99,10 @@ background-color: #b3d4e6; */
 
 /*Добавление нового шрифта*/
 /*@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100;500;800&display=swap');*/
+
+/*Cтили для блоков*/
+#block {
+  background: red;
+  height: 200px;
+  width: 300px;
+}

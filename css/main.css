@@ -96,3 +96,6 @@ background-color: #b3d4e6; */
     letter-spacing: 4px; - пространство между буквами
     line-height: 50px; - пространство между строками
 }
+
+/*Добавление нового шрифта*/
+/*@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100;500;800&display=swap');*/

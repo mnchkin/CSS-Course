@@ -110,4 +110,8 @@ background-color: #b3d4e6; */
   border-bottom: 0;
   border-top-style: solid;
   border-width: double;
+  border-radius: 15px 50%; /* - скругление углов*/
+  opacity: 0.8; /* - прозрачность объекта */
+  margin: 50px 20px; /* - внешние отступы */
+  padding: 50px 20px; /* - внутренние отступы */
 }

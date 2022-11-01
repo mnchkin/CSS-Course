@@ -115,3 +115,20 @@ background-color: #b3d4e6; */
   margin: 50px 20px; /* - внешние отступы */
   padding: 50px 20px; /* - внутренние отступы */
 }
+
+/* Обтекание объектов */
+.block {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background: blue;
+}
+
+#first {
+  float: left;
+}
+
+#second {
+  float: left;
+  background: red;
+}

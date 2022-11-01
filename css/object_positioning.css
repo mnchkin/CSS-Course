@@ -3,6 +3,19 @@
   padding: 0;
 }
 
+#some_block {
+  background: red;
+  color: #fff;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  position: fixed; /* есть также absolute */
+  left: 20px;
+  top: 50px;
+}
+
 #header,
 #footer {
   width: 100%;
